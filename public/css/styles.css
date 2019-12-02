@@ -1,0 +1,171 @@
+
+body {
+  color: gray;
+  margin: 0; 
+  font-family: serif;
+}
+
+header{
+  background-color: #dda0dd;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.head1{
+ background-color: #dda0dd;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.icon img {
+  border-radius: 50%;
+  width:180px;
+  height:180px;
+  border: 3px solid white; 
+  object-fit:cover;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.top{
+  margin-left: 30px;
+}
+
+.top h1{
+  font-weight:normal;
+  font-size:24px;
+}
+
+.top ul{/*サイト案内*/
+  display:flex;
+  list-style:none;
+  padding-left:0;
+}
+
+.top ul li{
+width: 110px;
+text-align:center;
+background-color:white;
+height:40px;
+line-height:40px;
+margin-right:2px;
+}
+
+.top ul li a{
+ text-decoration:none;
+ color:#dda0dd;
+ font-weight:bold;
+}
+
+/*ここからメイン*/
+
+main h1{
+  color:black;
+}
+main hr{
+  width:900px;
+  border-top:1px solid #dda0dd;
+}
+
+.self{/*自己紹介*/
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education{/*学歴欄*/
+  width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.education1{
+  width:900px;
+  display:flex;
+}
+.education ul{
+  list-style:none;
+  width:450px;
+  margin:0;
+  padding:0;
+}
+.education p{ 
+ width: 450px;
+ margin-top:0;
+ float:right;
+}
+.box{
+  border:2px dotted pink;
+  padding:5px;
+}
+
+.work-history{/*職歴欄*/
+  width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.work-history1 {
+  width:900px;
+  display:flex;
+}
+
+.work-history ul{
+  list-style:none;
+  width:450px;
+  margin:0;
+  padding:0;
+}
+.work-history p {  
+ width: 450px;
+ margin-top:0;
+ float:right;
+}
+
+.future{/*将来欄*/
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.future1{
+  width:900px;
+  display:flex;
+  margin-bottom:20px;
+}
+.future1 p {
+  width: 300px;
+  margin-top: 0;
+  float: left;
+  list-style-type:none;
+ }
+
+.future2{
+  border-left:0;
+  padding-left:0;
+}
+
+.future3{
+   /* display:inline; */
+   border-left:1px solid lightgray;
+   margin-right:7px;
+   padding-left:10px;
+}
+
+.future4{
+   /* display:inline; */
+   border-left:1px solid lightgray;
+   margin-right:7px;
+   padding-left:10px;
+}
+
+/*メインここまで*/
+
+
+footer{
+  width:100%;
+  background-color:#dda0dd;
+  color:white;
+  text-align:center;
+}
